@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<div django-app="TaskManager">        
+<div django-app="TaskManager">
 	<div class="container">
             <div class="content">
                 <h1>TodoApp</h1>
@@ -38,6 +38,7 @@
                     <div class="row">
                         <button class="taskAdd" name="taskAdd" type="submit"><i class="fa fa-plus icon"></i>Add task</button>
                         <!--Persona B Agrega Código AQUI! -->
+                            <button class="taskDelete" name="taskDelete" formnovalidate="" type="submit" onclick="$('input#sublist').click();"><i class="fa fa-trash-o icon"></i>Delete Tasks</button>
                     </div>
 
 
